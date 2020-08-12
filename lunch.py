@@ -1,4 +1,2 @@
-#!/usr/bin/env python3
-user_name = input("Please enter your name: ").capitalize()
-week = input("What day of the week is it: ")
-print(f"Hello {user_name}! Happy {week}!")
+mess= [1, 2, [3, 4, 5, {"six":6, "seven":7, "eight":8}]]
+print(mess[2][3]["eight"])
