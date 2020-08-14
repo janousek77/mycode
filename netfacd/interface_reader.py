@@ -12,3 +12,5 @@ for i in netifaces.interfaces():
     except:          # This is a new line
         print('Could not collect adapter information') # Print an error message
 
+def return_ip(name):
+    return netifaces.ifaddresses(i)[netifaces.AF_INET])[0]['addr']
